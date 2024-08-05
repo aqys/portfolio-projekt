@@ -1,0 +1,138 @@
+body {
+    font-family: 'Montserrat';
+    color: #ffffff;
+    background: radial-gradient(circle at center, #201c663d, #100e2b);
+    background-color: #191741;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    line-height: 1.6;
+    font-size: 1rem;
+    overflow-x: hidden;
+}
+nav {
+    height: 8vh;
+    background: transparent;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav a {
+    color: rgba(255, 255, 255, 0.336);
+    text-decoration: none;
+    margin-right: 3vw;
+    font-weight: 600;
+    font-size: 2vh;
+    transition: color 0.25s;
+}
+nav a:hover {
+    color: wheat;
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0.2;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: left;
+}
+.containertitel1 {
+    text-align: center;
+    opacity: 0.4;
+    width: 100%;
+}
+.containertitel {
+    text-align: center;
+    width: 100%;
+    opacity: 0.4;
+}
+.container a img {
+    width: 40%;
+    height: 90vh;
+    object-fit: cover;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 2vw;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.75);
+}
+h1 {
+    text-align: center;
+    margin-top: 10vh;
+    margin-right: -0.75vw;
+    font-size: 2.2vw;
+    color: wheat;
+}
+h2 {
+    text-align: center;
+    margin-top: -2vh;
+    font-size: 1.7vw;
+}
+.centered-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.centered-container p {
+    text-align: left;
+    max-width: 900px;
+}
+.centered-container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 40vh;
+}
+.centered-container2 p {
+    text-align: left;
+    max-width: 900px;
+}
+p {
+    font-size: 1.3rem;
+    line-height: 1.8;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.95);
+}
+.link {
+    text-decoration: none;
+    color: #ffffff;
+}
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row;
+        align-items: center;
+    }
+    .container a img {
+        width: 25vw;
+        height: 82vh;
+        object-fit: cover;
+    }
+    .container .content {
+        width: 30%;
+    }
+}
+.mig {
+    max-width: 45vw;
+}
+
+.block {
+    display: flex;
+    justify-content: center;
+}
